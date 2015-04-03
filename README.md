@@ -14,4 +14,5 @@ Bad Habit Project
 It gives the user daily cigarette/alcohol count & daily spent money. It also applies for the all-time statistics.
   
 It's built on Azure Mobile Services, and the authentication is done with Facebook.
-  
+
+The data is saved on Azure SQL Database.
