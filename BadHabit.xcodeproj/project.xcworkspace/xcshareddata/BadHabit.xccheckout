@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11C1FF94-2455-4202-BB6B-7334B298B36C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BadHabit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B4B20A7A353CC83D973FD04C69446278783844F</key>
+		<string>https://bitbucket.org/teambadhabit/badhabitres.git</string>
+		<key>81AA98EC3BB480BF762C1BAEF0B22307AF9AD9D7</key>
+		<string>https://bitbucket.org/arincelhan/badhabit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BadHabit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B4B20A7A353CC83D973FD04C69446278783844F</key>
+		<string>../..</string>
+		<key>81AA98EC3BB480BF762C1BAEF0B22307AF9AD9D7</key>
+		<string>../../../BadHabit</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/teambadhabit/badhabitres.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B4B20A7A353CC83D973FD04C69446278783844F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>81AA98EC3BB480BF762C1BAEF0B22307AF9AD9D7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BadHabit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B4B20A7A353CC83D973FD04C69446278783844F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BadHabitRes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

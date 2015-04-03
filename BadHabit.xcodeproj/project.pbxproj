@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AE0AD41AC6CB6D0092391A /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0AD11AC6CB6D0092391A /* settings@2x.png */; };
+		04AE0AD51AC6CB6D0092391A /* stat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0AD21AC6CB6D0092391A /* stat@2x.png */; };
+		04AE0AD61AC6CB6D0092391A /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AE0AD31AC6CB6D0092391A /* wine@2x.png */; };
+		5D1BEF7D1AC7300F00489F8F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1BEF791AC7300F00489F8F /* FBSDKCoreKit.framework */; };
+		5D1BEF7E1AC7300F00489F8F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1BEF7A1AC7300F00489F8F /* FBSDKLoginKit.framework */; };
+		5D1BEF7F1AC7300F00489F8F /* WindowsAzureMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1BEF7B1AC7300F00489F8F /* WindowsAzureMessaging.framework */; };
+		5D1BEF801AC7300F00489F8F /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1BEF7C1AC7300F00489F8F /* WindowsAzureMobileServices.framework */; };
+		5D1BEF861AC7303300489F8F /* BHConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BEF831AC7303300489F8F /* BHConnector.m */; };
+		5D1BEF871AC7303300489F8F /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BEF851AC7303300489F8F /* SSKeychain.m */; };
+		5D1BEF8A1AC7304200489F8F /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BEF891AC7304200489F8F /* SSKeychainQuery.m */; };
+		5D1BEF8D1AC745DD00489F8F /* marill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D1BEF8C1AC745DD00489F8F /* marill.png */; };
+		A4251A771AC7475600B890E8 /* CigaretteSub.m in Sources */ = {isa = PBXBuildFile; fileRef = A4251A761AC7475600B890E8 /* CigaretteSub.m */; };
+		A4251A791AC7476400B890E8 /* CigaretteSub.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4251A781AC7476400B890E8 /* CigaretteSub.xib */; };
+		A4251A7C1AC74DDF00B890E8 /* AlcoholSub.m in Sources */ = {isa = PBXBuildFile; fileRef = A4251A7B1AC74DDF00B890E8 /* AlcoholSub.m */; };
+		A4251A7E1AC74DEB00B890E8 /* AlcoholSub.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4251A7D1AC74DEB00B890E8 /* AlcoholSub.xib */; };
+		A4251A821AC76CEC00B890E8 /* StatsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4251A801AC76CEC00B890E8 /* StatsViewCell.m */; };
+		A4251A831AC76CEC00B890E8 /* StatsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4251A811AC76CEC00B890E8 /* StatsViewCell.xib */; };
+		A4251A871AC7707800B890E8 /* money@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4251A841AC7707800B890E8 /* money@2x.png */; };
+		A4251A891AC7707800B890E8 /* time2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4251A861AC7707800B890E8 /* time2@2x.png */; };
+		A4251A8B1AC7736200B890E8 /* money2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4251A8A1AC7736200B890E8 /* money2@2x.png */; };
+		A4251A931AC7829600B890E8 /* beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4251A8E1AC7829600B890E8 /* beer@2x.png */; };
+		A4251A941AC7829600B890E8 /* cigarette@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4251A8F1AC7829600B890E8 /* cigarette@2x.png */; };
+		A4251A951AC7829600B890E8 /* packofCigar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4251A901AC7829600B890E8 /* packofCigar.jpg */; };
+		A47D1B3B1AC691970071091D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B3A1AC691970071091D /* main.m */; };
+		A47D1B3E1AC691970071091D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B3D1AC691970071091D /* AppDelegate.m */; };
+		A47D1B411AC691970071091D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B401AC691970071091D /* ViewController.m */; };
+		A47D1B441AC691970071091D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B421AC691970071091D /* Main.storyboard */; };
+		A47D1B461AC691970071091D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B451AC691970071091D /* Images.xcassets */; };
+		A47D1B551AC691970071091D /* BadHabitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B541AC691970071091D /* BadHabitTests.m */; };
+		A47D1B611AC6A1060071091D /* StatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B601AC6A1060071091D /* StatViewController.m */; };
+		A47D1B641AC6A11C0071091D /* CigaretteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B631AC6A11C0071091D /* CigaretteViewController.m */; };
+		A47D1B671AC6A1290071091D /* AlcoholViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B661AC6A1290071091D /* AlcoholViewController.m */; };
+		A47D1B6D1AC6A1460071091D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B6C1AC6A1460071091D /* SettingsViewController.m */; };
+		A47D1B791AC6B66A0071091D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B781AC6B66A0071091D /* TabBarController.m */; };
+		A47D1B7D1AC6BD0C0071091D /* TopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B7C1AC6BD0C0071091D /* TopBar.m */; };
+		A47D1B831AC6D6A80071091D /* fastfood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B811AC6D6A80071091D /* fastfood@2x.png */; };
+		A47D1B841AC6D6A80071091D /* smoke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B821AC6D6A80071091D /* smoke@2x.png */; };
+		A47D1B891AC6F9E00071091D /* TobaccoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B871AC6F9E00071091D /* TobaccoViewCell.m */; };
+		A47D1B8A1AC6F9E00071091D /* TobaccoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B881AC6F9E00071091D /* TobaccoViewCell.xib */; };
+		A47D1B8E1AC6F9F20071091D /* AlcoholViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B8C1AC6F9F20071091D /* AlcoholViewCell.m */; };
+		A47D1B8F1AC6F9F20071091D /* AlcoholViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D1B8D1AC6F9F20071091D /* AlcoholViewCell.xib */; };
+		A47D1B961AC70DF30071091D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D1B951AC70DF30071091D /* QuartzCore.framework */; };
+		A47D1B9A1AC7327E0071091D /* PopCigaretteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B991AC7327E0071091D /* PopCigaretteView.m */; };
+		A47D1B9D1AC732950071091D /* PopAlcoholView.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1B9C1AC732950071091D /* PopAlcoholView.m */; };
+		A47D1BA11AC733110071091D /* PopCigaretteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D1BA01AC733110071091D /* PopCigaretteView.xib */; };
+		A47D1BA31AC733250071091D /* PopAlcoholView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D1BA21AC733250071091D /* PopAlcoholView.xib */; };
+		A4C85D121AC7C91900A75430 /* TopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C85D111AC7C91900A75430 /* TopBar.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47D1B4F1AC691970071091D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47D1B2D1AC691970071091D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47D1B341AC691970071091D;
+			remoteInfo = BadHabit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AE0AD11AC6CB6D0092391A /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		04AE0AD21AC6CB6D0092391A /* stat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stat@2x.png"; sourceTree = "<group>"; };
+		04AE0AD31AC6CB6D0092391A /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine@2x.png"; sourceTree = "<group>"; };
+		5D1BEF791AC7300F00489F8F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5D1BEF7A1AC7300F00489F8F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5D1BEF7B1AC7300F00489F8F /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMessaging.framework; sourceTree = "<group>"; };
+		5D1BEF7C1AC7300F00489F8F /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		5D1BEF821AC7303300489F8F /* BHConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConnector.h; sourceTree = "<group>"; };
+		5D1BEF831AC7303300489F8F /* BHConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConnector.m; sourceTree = "<group>"; };
+		5D1BEF841AC7303300489F8F /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		5D1BEF851AC7303300489F8F /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		5D1BEF881AC7304200489F8F /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		5D1BEF891AC7304200489F8F /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		5D1BEF8C1AC745DD00489F8F /* marill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marill.png; sourceTree = "<group>"; };
+		A4251A751AC7475600B890E8 /* CigaretteSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CigaretteSub.h; sourceTree = "<group>"; };
+		A4251A761AC7475600B890E8 /* CigaretteSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CigaretteSub.m; sourceTree = "<group>"; };
+		A4251A781AC7476400B890E8 /* CigaretteSub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CigaretteSub.xib; sourceTree = "<group>"; };
+		A4251A7A1AC74DDF00B890E8 /* AlcoholSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlcoholSub.h; sourceTree = "<group>"; };
+		A4251A7B1AC74DDF00B890E8 /* AlcoholSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlcoholSub.m; sourceTree = "<group>"; };
+		A4251A7D1AC74DEB00B890E8 /* AlcoholSub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlcoholSub.xib; sourceTree = "<group>"; };
+		A4251A7F1AC76CEC00B890E8 /* StatsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewCell.h; sourceTree = "<group>"; };
+		A4251A801AC76CEC00B890E8 /* StatsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewCell.m; sourceTree = "<group>"; };
+		A4251A811AC76CEC00B890E8 /* StatsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatsViewCell.xib; sourceTree = "<group>"; };
+		A4251A841AC7707800B890E8 /* money@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money@2x.png"; sourceTree = "<group>"; };
+		A4251A861AC7707800B890E8 /* time2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time2@2x.png"; sourceTree = "<group>"; };
+		A4251A8A1AC7736200B890E8 /* money2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money2@2x.png"; sourceTree = "<group>"; };
+		A4251A8E1AC7829600B890E8 /* beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer@2x.png"; sourceTree = "<group>"; };
+		A4251A8F1AC7829600B890E8 /* cigarette@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cigarette@2x.png"; sourceTree = "<group>"; };
+		A4251A901AC7829600B890E8 /* packofCigar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = packofCigar.jpg; sourceTree = "<group>"; };
+		A47D1B351AC691970071091D /* BadHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D1B391AC691970071091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47D1B3A1AC691970071091D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A47D1B3C1AC691970071091D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A47D1B3D1AC691970071091D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A47D1B3F1AC691970071091D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A47D1B401AC691970071091D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A47D1B431AC691970071091D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A47D1B451AC691970071091D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A47D1B4E1AC691970071091D /* BadHabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadHabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D1B531AC691970071091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47D1B541AC691970071091D /* BadHabitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadHabitTests.m; sourceTree = "<group>"; };
+		A47D1B5F1AC6A1060071091D /* StatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatViewController.h; sourceTree = "<group>"; };
+		A47D1B601AC6A1060071091D /* StatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatViewController.m; sourceTree = "<group>"; };
+		A47D1B621AC6A11C0071091D /* CigaretteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CigaretteViewController.h; sourceTree = "<group>"; };
+		A47D1B631AC6A11C0071091D /* CigaretteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CigaretteViewController.m; sourceTree = "<group>"; };
+		A47D1B651AC6A1290071091D /* AlcoholViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlcoholViewController.h; sourceTree = "<group>"; };
+		A47D1B661AC6A1290071091D /* AlcoholViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlcoholViewController.m; sourceTree = "<group>"; };
+		A47D1B6B1AC6A1460071091D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A47D1B6C1AC6A1460071091D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A47D1B771AC6B66A0071091D /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A47D1B781AC6B66A0071091D /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A47D1B7B1AC6BD0C0071091D /* TopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBar.h; sourceTree = "<group>"; };
+		A47D1B7C1AC6BD0C0071091D /* TopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBar.m; sourceTree = "<group>"; };
+		A47D1B811AC6D6A80071091D /* fastfood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastfood@2x.png"; sourceTree = "<group>"; };
+		A47D1B821AC6D6A80071091D /* smoke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smoke@2x.png"; sourceTree = "<group>"; };
+		A47D1B861AC6F9E00071091D /* TobaccoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TobaccoViewCell.h; sourceTree = "<group>"; };
+		A47D1B871AC6F9E00071091D /* TobaccoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TobaccoViewCell.m; sourceTree = "<group>"; };
+		A47D1B881AC6F9E00071091D /* TobaccoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TobaccoViewCell.xib; sourceTree = "<group>"; };
+		A47D1B8B1AC6F9F20071091D /* AlcoholViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlcoholViewCell.h; sourceTree = "<group>"; };
+		A47D1B8C1AC6F9F20071091D /* AlcoholViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlcoholViewCell.m; sourceTree = "<group>"; };
+		A47D1B8D1AC6F9F20071091D /* AlcoholViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlcoholViewCell.xib; sourceTree = "<group>"; };
+		A47D1B951AC70DF30071091D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A47D1B981AC7327E0071091D /* PopCigaretteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCigaretteView.h; sourceTree = "<group>"; };
+		A47D1B991AC7327E0071091D /* PopCigaretteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCigaretteView.m; sourceTree = "<group>"; };
+		A47D1B9B1AC732950071091D /* PopAlcoholView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAlcoholView.h; sourceTree = "<group>"; };
+		A47D1B9C1AC732950071091D /* PopAlcoholView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAlcoholView.m; sourceTree = "<group>"; };
+		A47D1BA01AC733110071091D /* PopCigaretteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopCigaretteView.xib; sourceTree = "<group>"; };
+		A47D1BA21AC733250071091D /* PopAlcoholView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopAlcoholView.xib; sourceTree = "<group>"; };
+		A4C85D111AC7C91900A75430 /* TopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopBar.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47D1B321AC691970071091D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D1B961AC70DF30071091D /* QuartzCore.framework in Frameworks */,
+				5D1BEF7D1AC7300F00489F8F /* FBSDKCoreKit.framework in Frameworks */,
+				5D1BEF7E1AC7300F00489F8F /* FBSDKLoginKit.framework in Frameworks */,
+				5D1BEF7F1AC7300F00489F8F /* WindowsAzureMessaging.framework in Frameworks */,
+				5D1BEF801AC7300F00489F8F /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D1B4B1AC691970071091D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE0AD01AC6CB480092391A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4251A8E1AC7829600B890E8 /* beer@2x.png */,
+				A4251A8F1AC7829600B890E8 /* cigarette@2x.png */,
+				A4251A901AC7829600B890E8 /* packofCigar.jpg */,
+				A4251A841AC7707800B890E8 /* money@2x.png */,
+				A4251A8A1AC7736200B890E8 /* money2@2x.png */,
+				A4251A861AC7707800B890E8 /* time2@2x.png */,
+				A47D1B811AC6D6A80071091D /* fastfood@2x.png */,
+				A47D1B821AC6D6A80071091D /* smoke@2x.png */,
+				04AE0AD11AC6CB6D0092391A /* settings@2x.png */,
+				04AE0AD21AC6CB6D0092391A /* stat@2x.png */,
+				04AE0AD31AC6CB6D0092391A /* wine@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5D1BEF811AC7301D00489F8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B951AC70DF30071091D /* QuartzCore.framework */,
+				5D1BEF791AC7300F00489F8F /* FBSDKCoreKit.framework */,
+				5D1BEF7A1AC7300F00489F8F /* FBSDKLoginKit.framework */,
+				5D1BEF7B1AC7300F00489F8F /* WindowsAzureMessaging.framework */,
+				5D1BEF7C1AC7300F00489F8F /* WindowsAzureMobileServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D1BEF8B1AC7304A00489F8F /* Connector Class */ = {
+			isa = PBXGroup;
+			children = (
+				5D1BEF881AC7304200489F8F /* SSKeychainQuery.h */,
+				5D1BEF891AC7304200489F8F /* SSKeychainQuery.m */,
+				5D1BEF821AC7303300489F8F /* BHConnector.h */,
+				5D1BEF831AC7303300489F8F /* BHConnector.m */,
+				5D1BEF841AC7303300489F8F /* SSKeychain.h */,
+				5D1BEF851AC7303300489F8F /* SSKeychain.m */,
+			);
+			name = "Connector Class";
+			sourceTree = "<group>";
+		};
+		A4251A741AC7472500B890E8 /* Scroll Subs */ = {
+			isa = PBXGroup;
+			children = (
+				A4251A751AC7475600B890E8 /* CigaretteSub.h */,
+				A4251A761AC7475600B890E8 /* CigaretteSub.m */,
+				A4251A781AC7476400B890E8 /* CigaretteSub.xib */,
+				A4251A7A1AC74DDF00B890E8 /* AlcoholSub.h */,
+				A4251A7B1AC74DDF00B890E8 /* AlcoholSub.m */,
+				A4251A7D1AC74DEB00B890E8 /* AlcoholSub.xib */,
+			);
+			path = "Scroll Subs";
+			sourceTree = "<group>";
+		};
+		A47D1B2C1AC691970071091D = {
+			isa = PBXGroup;
+			children = (
+				5D1BEF8C1AC745DD00489F8F /* marill.png */,
+				A47D1B371AC691970071091D /* BadHabit */,
+				A47D1B511AC691970071091D /* BadHabitTests */,
+				A47D1B361AC691970071091D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47D1B361AC691970071091D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B351AC691970071091D /* BadHabit.app */,
+				A47D1B4E1AC691970071091D /* BadHabitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47D1B371AC691970071091D /* BadHabit */ = {
+			isa = PBXGroup;
+			children = (
+				A4251A741AC7472500B890E8 /* Scroll Subs */,
+				A47D1B971AC732500071091D /* Popup Views */,
+				5D1BEF8B1AC7304A00489F8F /* Connector Class */,
+				5D1BEF811AC7301D00489F8F /* Frameworks */,
+				A47D1B851AC6F9B30071091D /* Cell Views */,
+				04AE0AD01AC6CB480092391A /* Images */,
+				A47D1B7A1AC6BCE70071091D /* Sub Views */,
+				A47D1B5E1AC69FD70071091D /* Main Views */,
+				A47D1B3C1AC691970071091D /* AppDelegate.h */,
+				A47D1B3D1AC691970071091D /* AppDelegate.m */,
+				A47D1B3F1AC691970071091D /* ViewController.h */,
+				A47D1B401AC691970071091D /* ViewController.m */,
+				A47D1B421AC691970071091D /* Main.storyboard */,
+				A47D1B451AC691970071091D /* Images.xcassets */,
+				A47D1B381AC691970071091D /* Supporting Files */,
+			);
+			path = BadHabit;
+			sourceTree = "<group>";
+		};
+		A47D1B381AC691970071091D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B391AC691970071091D /* Info.plist */,
+				A47D1B3A1AC691970071091D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47D1B511AC691970071091D /* BadHabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B541AC691970071091D /* BadHabitTests.m */,
+				A47D1B521AC691970071091D /* Supporting Files */,
+			);
+			path = BadHabitTests;
+			sourceTree = "<group>";
+		};
+		A47D1B521AC691970071091D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B531AC691970071091D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47D1B5E1AC69FD70071091D /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B5F1AC6A1060071091D /* StatViewController.h */,
+				A47D1B601AC6A1060071091D /* StatViewController.m */,
+				A47D1B621AC6A11C0071091D /* CigaretteViewController.h */,
+				A47D1B631AC6A11C0071091D /* CigaretteViewController.m */,
+				A47D1B651AC6A1290071091D /* AlcoholViewController.h */,
+				A47D1B661AC6A1290071091D /* AlcoholViewController.m */,
+				A47D1B6B1AC6A1460071091D /* SettingsViewController.h */,
+				A47D1B6C1AC6A1460071091D /* SettingsViewController.m */,
+				A47D1B771AC6B66A0071091D /* TabBarController.h */,
+				A47D1B781AC6B66A0071091D /* TabBarController.m */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		A47D1B7A1AC6BCE70071091D /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B7B1AC6BD0C0071091D /* TopBar.h */,
+				A47D1B7C1AC6BD0C0071091D /* TopBar.m */,
+				A4C85D111AC7C91900A75430 /* TopBar.xib */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		A47D1B851AC6F9B30071091D /* Cell Views */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B861AC6F9E00071091D /* TobaccoViewCell.h */,
+				A47D1B871AC6F9E00071091D /* TobaccoViewCell.m */,
+				A47D1B881AC6F9E00071091D /* TobaccoViewCell.xib */,
+				A47D1B8B1AC6F9F20071091D /* AlcoholViewCell.h */,
+				A47D1B8C1AC6F9F20071091D /* AlcoholViewCell.m */,
+				A47D1B8D1AC6F9F20071091D /* AlcoholViewCell.xib */,
+				A4251A7F1AC76CEC00B890E8 /* StatsViewCell.h */,
+				A4251A801AC76CEC00B890E8 /* StatsViewCell.m */,
+				A4251A811AC76CEC00B890E8 /* StatsViewCell.xib */,
+			);
+			path = "Cell Views";
+			sourceTree = "<group>";
+		};
+		A47D1B971AC732500071091D /* Popup Views */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1B981AC7327E0071091D /* PopCigaretteView.h */,
+				A47D1B991AC7327E0071091D /* PopCigaretteView.m */,
+				A47D1BA01AC733110071091D /* PopCigaretteView.xib */,
+				A47D1B9B1AC732950071091D /* PopAlcoholView.h */,
+				A47D1B9C1AC732950071091D /* PopAlcoholView.m */,
+				A47D1BA21AC733250071091D /* PopAlcoholView.xib */,
+			);
+			path = "Popup Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47D1B341AC691970071091D /* BadHabit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47D1B581AC691970071091D /* Build configuration list for PBXNativeTarget "BadHabit" */;
+			buildPhases = (
+				A47D1B311AC691970071091D /* Sources */,
+				A47D1B321AC691970071091D /* Frameworks */,
+				A47D1B331AC691970071091D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadHabit;
+			productName = BadHabit;
+			productReference = A47D1B351AC691970071091D /* BadHabit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47D1B4D1AC691970071091D /* BadHabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47D1B5B1AC691970071091D /* Build configuration list for PBXNativeTarget "BadHabitTests" */;
+			buildPhases = (
+				A47D1B4A1AC691970071091D /* Sources */,
+				A47D1B4B1AC691970071091D /* Frameworks */,
+				A47D1B4C1AC691970071091D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47D1B501AC691970071091D /* PBXTargetDependency */,
+			);
+			name = BadHabitTests;
+			productName = BadHabitTests;
+			productReference = A47D1B4E1AC691970071091D /* BadHabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47D1B2D1AC691970071091D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Reengen;
+				TargetAttributes = {
+					A47D1B341AC691970071091D = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7N3V7ETK89;
+					};
+					A47D1B4D1AC691970071091D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A47D1B341AC691970071091D;
+					};
+				};
+			};
+			buildConfigurationList = A47D1B301AC691970071091D /* Build configuration list for PBXProject "BadHabit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A47D1B2C1AC691970071091D;
+			productRefGroup = A47D1B361AC691970071091D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47D1B341AC691970071091D /* BadHabit */,
+				A47D1B4D1AC691970071091D /* BadHabitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47D1B331AC691970071091D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1BEF8D1AC745DD00489F8F /* marill.png in Resources */,
+				04AE0AD51AC6CB6D0092391A /* stat@2x.png in Resources */,
+				A47D1B8F1AC6F9F20071091D /* AlcoholViewCell.xib in Resources */,
+				04AE0AD41AC6CB6D0092391A /* settings@2x.png in Resources */,
+				A47D1B8A1AC6F9E00071091D /* TobaccoViewCell.xib in Resources */,
+				A47D1B841AC6D6A80071091D /* smoke@2x.png in Resources */,
+				A47D1BA11AC733110071091D /* PopCigaretteView.xib in Resources */,
+				A4C85D121AC7C91900A75430 /* TopBar.xib in Resources */,
+				A4251A931AC7829600B890E8 /* beer@2x.png in Resources */,
+				A47D1B441AC691970071091D /* Main.storyboard in Resources */,
+				A4251A8B1AC7736200B890E8 /* money2@2x.png in Resources */,
+				A4251A791AC7476400B890E8 /* CigaretteSub.xib in Resources */,
+				A4251A951AC7829600B890E8 /* packofCigar.jpg in Resources */,
+				A4251A831AC76CEC00B890E8 /* StatsViewCell.xib in Resources */,
+				A47D1BA31AC733250071091D /* PopAlcoholView.xib in Resources */,
+				A4251A7E1AC74DEB00B890E8 /* AlcoholSub.xib in Resources */,
+				A4251A871AC7707800B890E8 /* money@2x.png in Resources */,
+				A47D1B831AC6D6A80071091D /* fastfood@2x.png in Resources */,
+				A47D1B461AC691970071091D /* Images.xcassets in Resources */,
+				A4251A941AC7829600B890E8 /* cigarette@2x.png in Resources */,
+				A4251A891AC7707800B890E8 /* time2@2x.png in Resources */,
+				04AE0AD61AC6CB6D0092391A /* wine@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D1B4C1AC691970071091D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47D1B311AC691970071091D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D1B411AC691970071091D /* ViewController.m in Sources */,
+				A47D1B891AC6F9E00071091D /* TobaccoViewCell.m in Sources */,
+				A47D1B9D1AC732950071091D /* PopAlcoholView.m in Sources */,
+				A47D1B641AC6A11C0071091D /* CigaretteViewController.m in Sources */,
+				5D1BEF8A1AC7304200489F8F /* SSKeychainQuery.m in Sources */,
+				A47D1B3E1AC691970071091D /* AppDelegate.m in Sources */,
+				5D1BEF861AC7303300489F8F /* BHConnector.m in Sources */,
+				A47D1B791AC6B66A0071091D /* TabBarController.m in Sources */,
+				A47D1B6D1AC6A1460071091D /* SettingsViewController.m in Sources */,
+				A4251A821AC76CEC00B890E8 /* StatsViewCell.m in Sources */,
+				A4251A7C1AC74DDF00B890E8 /* AlcoholSub.m in Sources */,
+				A47D1B7D1AC6BD0C0071091D /* TopBar.m in Sources */,
+				A47D1B671AC6A1290071091D /* AlcoholViewController.m in Sources */,
+				A47D1B611AC6A1060071091D /* StatViewController.m in Sources */,
+				A4251A771AC7475600B890E8 /* CigaretteSub.m in Sources */,
+				A47D1B8E1AC6F9F20071091D /* AlcoholViewCell.m in Sources */,
+				A47D1B9A1AC7327E0071091D /* PopCigaretteView.m in Sources */,
+				A47D1B3B1AC691970071091D /* main.m in Sources */,
+				5D1BEF871AC7303300489F8F /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D1B4A1AC691970071091D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D1B551AC691970071091D /* BadHabitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47D1B501AC691970071091D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47D1B341AC691970071091D /* BadHabit */;
+			targetProxy = A47D1B4F1AC691970071091D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47D1B421AC691970071091D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D1B431AC691970071091D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47D1B561AC691970071091D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A47D1B571AC691970071091D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47D1B591AC691970071091D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BadHabit",
+				);
+				INFOPLIST_FILE = BadHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A47D1B5A1AC691970071091D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BadHabit",
+				);
+				INFOPLIST_FILE = BadHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A47D1B5C1AC691970071091D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BadHabitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadHabit.app/BadHabit";
+			};
+			name = Debug;
+		};
+		A47D1B5D1AC691970071091D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BadHabitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadHabit.app/BadHabit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47D1B301AC691970071091D /* Build configuration list for PBXProject "BadHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D1B561AC691970071091D /* Debug */,
+				A47D1B571AC691970071091D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47D1B581AC691970071091D /* Build configuration list for PBXNativeTarget "BadHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D1B591AC691970071091D /* Debug */,
+				A47D1B5A1AC691970071091D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47D1B5B1AC691970071091D /* Build configuration list for PBXNativeTarget "BadHabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D1B5C1AC691970071091D /* Debug */,
+				A47D1B5D1AC691970071091D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47D1B2D1AC691970071091D /* Project object */;
+}
